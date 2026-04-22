@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-open-like-vsc",
+  "version": "1.0.0",
+  "description": "Open notes like VSCode with preview and pinned tabs",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit -p tsconfig.json && node esbuild.config.mjs production",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.9.2"
+  }
+}

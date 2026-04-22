@@ -1,0 +1,9 @@
+{
+  "id": "open-like-vsc",
+  "name": "Open Like VSCode",
+  "version": "1.0.0",
+  "minAppVersion": "1.8.9",
+  "description": "Opens notes with VSCode-style preview tabs: single-click previews, double-click pins.",
+  "author": "yntangxi",
+  "isDesktopOnly": true
+}

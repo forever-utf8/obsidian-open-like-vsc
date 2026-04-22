@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "ESNext",
+    "target": "ES2023",
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "noEmit": true,
+    "lib": ["DOM", "ES2023", "DOM.Iterable"]
+  },
+  "include": ["**/*.ts"]
+}
